@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="export">
+      <UniqueIdentifier>{865b6919-c123-4cc3-9c00-d6f18ccda0ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Calificador.h">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="CalificadorDll.h">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="IFabrica.h">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="IPersona.h">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="INodoLista.h">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="ILista.h">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="INodoGrafoSocial.h">
+      <Filter>export</Filter>
+    </ClInclude>
+    <ClInclude Include="IGrafoSocial.h">
+      <Filter>export</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CalificadorDll.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Calificador.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

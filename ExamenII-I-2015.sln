@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalificadorDll", "CalificadorDll\CalificadorDll.vcxproj", "{F0BD6204-5C70-4B13-982D-C7B1DDBE4E2E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExamenSolucionado", "ExamenSolucionado\ExamenSolucionado.vcxproj", "{9CB3ADED-7804-4222-80AE-C4C0784387C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0BD6204-5C70-4B13-982D-C7B1DDBE4E2E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F0BD6204-5C70-4B13-982D-C7B1DDBE4E2E}.Debug|Win32.Build.0 = Debug|Win32
+		{F0BD6204-5C70-4B13-982D-C7B1DDBE4E2E}.Release|Win32.ActiveCfg = Release|Win32
+		{F0BD6204-5C70-4B13-982D-C7B1DDBE4E2E}.Release|Win32.Build.0 = Release|Win32
+		{9CB3ADED-7804-4222-80AE-C4C0784387C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9CB3ADED-7804-4222-80AE-C4C0784387C2}.Debug|Win32.Build.0 = Debug|Win32
+		{9CB3ADED-7804-4222-80AE-C4C0784387C2}.Release|Win32.ActiveCfg = Release|Win32
+		{9CB3ADED-7804-4222-80AE-C4C0784387C2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
